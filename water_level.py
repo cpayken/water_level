@@ -57,16 +57,16 @@ cpu = CPUTemperature()
 speed_sound = (346 + 0.606 * air_temp) * 100 / 2
 
 # Server IP address/domain name
-#HOST = ""
+HOST = ""
 # Database name, if you want to just connect to MySql server, leave this blank.
-#DATABASE = ""
+DATABASE = ""
 # This is the user you create.
-#USER = ""
+USER = ""
 # User password
-#PASSWORD = ""
+PASSWORD = ""
 # Connect to MySQL Server
-#db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
-#print("Connected to:", db_connection.get_server_info())
+db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
+print("Connected to:", db_connection.get_server_info())
 
 print ("CPU temp is",cpu.temperature,"Degrees C")
 print ("Air temp is",air_temp, "Degrees C")
