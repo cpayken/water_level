@@ -1,2 +1,2 @@
-In your python environment you have to install 'pip install get-mac'
+In your python environment you have to install 'python3-pip' & 'pip install get-mac'
 After the installation of get-mac python library, ModuleNotFoundError: No module named 'get-mac' error will be solved.
