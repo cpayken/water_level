@@ -2,7 +2,7 @@
 #After the installation of get-mac python library, ModuleNotFoundError: No module named 'get-mac' error will be solved.
 
 
-#To add support for OneWire, we first need to open up the boot config file, and this can be done by running the following command. I like to use the nano text editor.
+#To add support for OneWire, we first need to open up the boot config file, and this can be done by running the following command.
 sudo nano /boot/config.txt
 
 #Once done save and exit by pressing CTRL + X and then Y. Now reboot the Pi by running the following command.
@@ -23,4 +23,4 @@ cd 28-000007602ffa
 #Now run the following cat command.
 cat w1_slave
 
-#This command should output data but as you will notice it is not very user-friendly.
+#This command should output data.
