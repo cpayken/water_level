@@ -6,7 +6,7 @@ import math
 from getmac import get_mac_address as gma
 from datetime import datetime
 from gpiozero import CPUTemperature
-# Import mysql.connector as mysql
+#import mysql.connector as mysql
 
 GPIO.setmode(GPIO.BCM)
 
