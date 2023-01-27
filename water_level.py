@@ -57,13 +57,13 @@ cpu = CPUTemperature()
 speed_sound = (346 + 0.606 * air_temp) * 100 / 2
 
 # Server IP address/domain name
-#HOST = ""
+#HOST = "ENTER HOST NAME"
 # Database name, if you want to just connect to MySql server, leave this blank.
-#DATABASE = ""
+#DATABASE = "ENTER DATABASE NAME"
 # This is the user you create.
-#USER = ""
+#USER = "ENTER USER NAME"
 # User password
-#PASSWORD = ""
+#PASSWORD = "ENTER PASSWORD"
 # Connect to MySQL Server
 #db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
 #print("Connected to:", db_connection.get_server_info())
@@ -95,7 +95,7 @@ distance = pulse_duration * speed_sound
 distance = round(distance, 2)
 distance_inches = round(distance * 0.3937, 2)
 
-# Print Date, Time, and Distance.
+# Print calculated Distance.
 print ("Distance:",distance_inches,"in")
 
 # If there is a warning.
