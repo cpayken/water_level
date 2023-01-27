@@ -2,10 +2,10 @@
 #After the installation of get-mac python library, ModuleNotFoundError: No module named 'get-mac' error will be solved.
 
 
-#To add support for OneWire, we first need to open up the boot config file, and this can be done by running the following command.
+#To add support for OneWire, you first need to open up the boot config file. This can be done by running the following command:
 sudo nano /boot/config.txt
 
-#Once done save and exit by pressing CTRL + X and then Y. Now reboot the Pi by running the following command.
+#Once done save and exit by pressing CTRL + X and then Y. Now reboot the Pi by running the following command:
 sudo reboot
 
 #Once the Raspberry Pi has booted back up, we need to run modprobe so we can load the correct modules.
@@ -18,9 +18,9 @@ ls
 
 #Now run the following command, change the numbering after cd to what has appeared in your directory by using the ls command. (If you have multiple sensors there
 will be more than one directory)
-cd 28-000007602ffa
+cd 28-0000007862ff
 
 #Now run the following cat command.
 cat w1_slave
 
-#This command should output data.
+#The above command should output data.
